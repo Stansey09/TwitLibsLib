@@ -1,0 +1,27 @@
+﻿Build started 12/5/2012 9:22:32 PM.
+     1>Project "C:\Users\stephen.tansey\Desktop\TwitLibsLibDLL\TwitLibsLib\TwitLibsLib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\TwitLibsLib.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stephen.tansey\Desktop\TwitLibsLibDLL\Debug\TwitLibsLib.dll" /INCREMENTAL /NOLOGO libs/libcurl.lib libs/twitcurl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TwitLibsLib.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\stephen.tansey\Desktop\TwitLibsLibDLL\Debug\TwitLibsLib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stephen.tansey\Desktop\TwitLibsLibDLL\Debug\TwitLibsLib.lib" /MACHINE:X86 /DLL Debug\TwitLibsLib.dll.embed.manifest.res
+         Debug\TwitLibsLib.obj
+     1>twitcurl.lib(twitcurl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in TwitLibsLib.obj
+     1>twitcurl.lib(oauthlib.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in TwitLibsLib.obj
+     1>twitcurl.lib(urlencode.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in TwitLibsLib.obj
+     1>twitcurl.lib(base64.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in TwitLibsLib.obj
+     1>twitcurl.lib(HMAC_SHA1.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in TwitLibsLib.obj
+            Creating library C:\Users\stephen.tansey\Desktop\TwitLibsLibDLL\Debug\TwitLibsLib.lib and object C:\Users\stephen.tansey\Desktop\TwitLibsLibDLL\Debug\TwitLibsLib.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>TwitLibsLib.obj : error LNK2001: unresolved external symbol "private: static class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > TwitLibsLib::TwitLibs::vAdjectives" (?vAdjectives@TwitLibs@TwitLibsLib@@0V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@A)
+     1>TwitLibsLib.obj : error LNK2001: unresolved external symbol "private: static class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > TwitLibsLib::TwitLibs::vVerbs" (?vVerbs@TwitLibs@TwitLibsLib@@0V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@A)
+     1>TwitLibsLib.obj : error LNK2001: unresolved external symbol "private: static class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > TwitLibsLib::TwitLibs::vNouns" (?vNouns@TwitLibs@TwitLibsLib@@0V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@A)
+     1>C:\Users\stephen.tansey\Desktop\TwitLibsLibDLL\Debug\TwitLibsLib.dll : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\stephen.tansey\Desktop\TwitLibsLibDLL\TwitLibsLib\TwitLibsLib.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.79
